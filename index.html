@@ -31,14 +31,14 @@
     修正が終わったら、保存してコミットする。
 
     <hr>
-    git add .
+    <mark>git add .</mark>
     <br>
-    git commit -m "fix: ソース修正版アップロード"
+    <mark>git commit -m "fix: ソース修正版アップロード"</mark>
 
     <hr>
     ☁️ ステップ 2：GitHubに上書きアップロード（push）
     <br>
-    git push origin main
+    <mark>git push origin main</mark>
     <br>
 
 
@@ -52,6 +52,42 @@
      で作成。
     <br>
      （スコープは「repo」だけでOK）
+
+<hr>
+[fedora app001_angry-type]$ <mark>git branch</mark><br>
+* main<br>
+[fedora app001_angry-type]$ <mark>git status</mark><br>
+On branch main<br>
+Your branch is up to date with 'origin/main'.<br>
+<br>
+nothing to commit, working tree clean<br>
+[fedora app001_angry-type]$ <mark>git log</mark><br>
+commit c9078a1211929eb0b26c30c4998753648862f4b8 (HEAD -> main, origin/main)<br>
+Author: minpoudai192 <minpoudai192@hotmail.co.jp><br>
+Date:   Mon Oct 6 01:37:04 2025 +0900<br>
+<br>
+fix003<br>
+<br>
+commit 4111f401c3e17b28b240161472b179011deb8304<br>
+Author: minpoudai192 <minpoudai192@hotmail.co.jp><br>
+Date:   Mon Oct 6 01:34:40 2025 +0900<br>
+<br>
+fix002<br>
+<br>
+commit 744ded8936966776b056ab4cf27ae9fc3b3628cc<br>
+Author: minpoudai192 <minpoudai192@hotmail.co.jp><br>
+Date:   Mon Oct 6 01:27:52 2025 +0900<br>
+<br>
+fix001<br>
+<br>
+commit 9a3c0c935b6a4aaa72a126c9540a2011018dad01<br>
+Author: minpoudai192 <minpoudai192@hotmail.co.jp><br>
+Date:   Mon Oct 6 01:06:42 2025 +0900<br>
+<br>
+first commit<br>
+[fedora app001_angry-type]$ <br>
+<hr>
+
 </h3>
 
 <script src="script.js"></script>
