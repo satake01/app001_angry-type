@@ -12,6 +12,51 @@
 <input type="text" id="input" placeholder="タイプしてみて！">
 <p id="result"></p>
 
+<h3>
+    github手順
+    <br>
+    🔧 ステップ 1：Fedoraで修正
+    <br>
+    cd ~/app001_angry-type
+    <br>
+# コードを編集
+    <br>
+    nano index.html
+    <br>
+# または VS Code で
+    <br>
+    code .
+    <br>
+
+    <br>
+
+    <br>
+    修正が終わったら、保存してコミットする。
+
+    <br>
+    git add .
+    <br>
+    git commit -m "fix: ソース修正版アップロード"
+
+    <br>
+    ☁️ ステップ 2：GitHubに上書きアップロード（push）
+    <br>
+    git push origin main
+    <br>
+
+
+    ✅ これでGitHub上の app001-angry-type リポジトリが最新になる。
+
+    <br>
+    もしGitHubの認証が再度聞かれたら、**個人アクセストークン（PAT）**を使う。
+    <br>
+    トークンは https://github.com/settings/tokens
+    <br>
+     で作成。
+    <br>
+     （スコープは「repo」だけでOK）
+</h3>
+
 <script src="script.js"></script>
 </body>
 </html>
